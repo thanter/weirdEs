@@ -1,11 +1,10 @@
-
 // Example of an Immediately Invoked Function Expression
 var greeting = function(name) {
 	return "Hello " + name;
 }('Thanasis');
 
 // now greeting holds the value returned from the function
-console.log(greeting); 	// Hello Thanasis
+console.log(greeting) // Hello Thanasis
 
 
 // INTERESTING ASIDE
@@ -17,5 +16,5 @@ console.log(greeting); 	// Hello Thanasis
 // I need to have the parenthesis, cause if they don't exist, js
 // assumes I am typing a function STATEMENT (eg function test(){})
 (function(name) {
-	console.log(name)
+	console.log(name);
 })("Hello darkness my old friend");
