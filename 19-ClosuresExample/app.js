@@ -29,3 +29,29 @@ var spanishGreeter = greetingsBuilder('es');
 defaultGreeter('Thanasis', 'Nterelis');
 spanishGreeter('Thanasis', 'Nterelis');
 englishGreeter('Thanasis', 'Nterelis');
+
+//----------------------------------------------------------------------------
+// CALLBACKS
+// I have 2 functions, first and second
+// I pass the second as argument to first. When first finishes all its work
+// and and at the end it invokes the 'second'. The second is the callback function
+// example
+
+function first(second) {
+	// second is a function (callback)
+
+	// some work
+	var a = 10;
+	var b = 20;
+
+	// callback
+	second();
+}
+
+first(function() {
+	console.log('ena eidon');
+});
+
+first(function() {
+	console.log('dio eidon');
+});
