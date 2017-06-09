@@ -20,10 +20,12 @@ var anonymousFunction = function() {
 // (functions are objects).
 anonymousFunc();
 
+
+
 // FUNCTION EXPRESSIONS ARE NOT HOISTED,example:
 anonymous2();
 // RES
-// undefined is not a function. This is not a function, it's just a variable for an object
+// undefined is not a function. This is not a function, it's just a variable for an object!!!
 var anonymous2 = function() {
 	console.log('testing');
 }

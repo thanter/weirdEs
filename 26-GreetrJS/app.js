@@ -1,0 +1,1 @@
+G$("Thanasis", "Nterelis").greet().setLang('es').greet(true);

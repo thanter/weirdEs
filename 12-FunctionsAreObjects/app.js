@@ -19,6 +19,6 @@
  You can assign functions to variables, pass them around and create them on the fly.
  ---------------------------------
  Because functions are objects, you can ATTACH (ADD) primitive types, objects and other functions to them.
- They also have other special properties, such as its name (which is optional) and its code property (which is invokable),
+ They also have other special properties, such as its name (which is optional) and its code property (which is invocable),
  which is where your actual code of the function lives.
  */

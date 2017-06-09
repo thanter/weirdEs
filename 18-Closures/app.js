@@ -21,7 +21,7 @@
 
 
 /*
- Closures allow functions inside of other functions to have access to variables in the outer function.
+ Closures allow functions inside other functions to have access to variables in the outer function.
  EVEN after the outer functions have completed running******
 
  This is why in the above example, our function sayHelloTo(); has access to the typeOfGreeting variable, even after the greet()

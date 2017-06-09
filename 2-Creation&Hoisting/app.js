@@ -21,7 +21,7 @@ function b() {
 // the variable a (but not its value) and the function b();
 
 // BUT its a better practice to use it like this
-// var a = 10;					// like moving 'var a;' to the top, but NOT exactly
+// var a = 10;
 
 // function b() {
 // 	console.log("I am b");

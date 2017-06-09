@@ -46,7 +46,7 @@ console.log(c);
 -> 3
 -> 3
 
-* RIGHT TO LEFT ASSOCIATIVITY, b = 3 returns '3'
+* RIGHT TO LEFT ASSOCIATIVITY, 'b = 3' returns '3'
 
 
 ======================================================================================
@@ -80,17 +80,17 @@ Same thing applies when using the equality operators
 JS coerces the values.
 
 COERCE TO NUMBER
-Number('4'), Number(false), Number(null), Number(undefined) 
+Number('4'), Number(false), Number(null), Number(undefined)
 
 COERCE TO String
-String('4'), String(false), String(null), String(undefined) 
+String('4'), String(false), String(null), String(undefined)
 
 'a' == a
 true
 'a' === a
 false
 
-false == 0 
+false == 0
 true (cause false corces to 0)
 
 false === 0
@@ -100,7 +100,7 @@ In case you are not certain about a comparison you can check the sameness table:
 https://developer.mozilla.org/el/docs/Web/JavaScript/Equality_comparisons_and_sameness
 
 
-***** VALUES THAT ARE FALSE *****
+***** VALUES THAT ARE FALSY *****
 Boolean("")
 Boolean(undefined)
 Boolean(false)

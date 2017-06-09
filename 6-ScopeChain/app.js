@@ -12,11 +12,11 @@ a();
 
 // RESULT
 // 1
-
 // HOW COME ?
 /*
 As stated previously when a new execution context is created it creates a 'link'
-to its outer environment as well. The outer enviroment is determined by WHERE
+to its outer environment as well.
+The outer enviroment is determined by WHERE
 its function actually sits in the code.
 So both a() and b() have the 'GLOBAL' as their outer enviroment.
 
@@ -44,4 +44,4 @@ c();
 
 // asside
 // if i attempt to call the d() function for the global
-// it will result to 'undefined functio'
+// it will result to 'undefined function'

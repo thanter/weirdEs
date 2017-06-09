@@ -9,7 +9,7 @@ function a() {
 a();
 
 /*
-Whenever is function is INVOKED (called) a new EXECUTION CONTEXT is created by js.
+Whenever a function is INVOKED (called) a new EXECUTION CONTEXT is created by js.
 This new context follows the same two phases: Creation (hoisting etc) and Execution phase.
 
 Every new Execution Context is put on top of an execution stack and only the current
@@ -20,7 +20,7 @@ Analytically:
 - a is invoked
 2. a's execution context created and executes code
 - b is invoked
-3. b' execution context created and code executed
+3. b's execution context created and code executed
 4. Return back to a and finally back to global context.
 
 *SINGLE THREADED & SYCHRONOUS*

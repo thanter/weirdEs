@@ -1,8 +1,8 @@
 // When a JS program starts, Javascript creates an execution context.
-// The Global execution context. 
+// The Global execution context.
 // Also JS creates a global object, which is assigned to the variable 'this'.
 
-// In the browser the global object is called 'window'. 
+// In the browser the global object is called 'window'.
 // (In nodejs it will be a different name)
 // this === window
 
@@ -19,4 +19,4 @@ function b() {
 // CONSOLE
 // check the 'this' object
 // it will have the attributes 'a' and 'b'
-// In global env there is no 'outer environment' 
+// ** In global context there is no 'outer environment'
